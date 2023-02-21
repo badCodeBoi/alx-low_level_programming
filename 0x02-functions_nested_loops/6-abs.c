@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * _asb - 
- * Return: 0 (Success) */
+ * _abs - absolute value of an integer
+ * @t: parameter
+ * Return: t
+ */
 int _abs(int t)
 {
 	if (t >= 0)
-	return(t);
+	return (t);
 	else
 	return (-t);
 }
