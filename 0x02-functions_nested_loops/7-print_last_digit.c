@@ -4,12 +4,11 @@
  * @n: stores last digit
  * Return: ld
  */
-int print_last_digit(int n)
+int print_last_digit(int db)
 {
-	int n;
+	int db;
 
-	int ld = n % 10;
-
+	int ld = db % 10;
 	if (ld < 0)
 	{
 	_putchar(ld + 48);
