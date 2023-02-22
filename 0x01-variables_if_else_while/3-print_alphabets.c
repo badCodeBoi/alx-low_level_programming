@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
- * main - program that prints the alphabet in Upper &lowercase
- * Return: 0 (Success)
+ *main - program that prints the alphabet in Upper &lowercase
+ *Return: 0 (Success)
  */
 
 int main(void)
@@ -13,16 +12,20 @@ int main(void)
 
 	c = 'a';
 	d = 'A';
+
 	while (c <= 'z')
 		{
 		putchar(c);
 		c++;
+
 }
 	while (d <= 'z')
 	{
+
 	putchar(c);
 	d++;
 }
 putchar('\n');
 return (0);
 }
+ /* main - program that prints the alphabet in Upper &lowercase */
