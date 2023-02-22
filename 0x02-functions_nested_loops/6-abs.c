@@ -2,12 +2,16 @@
 /**
  * _abs - absolute value of an integer
  * @t: parameter
- * Return: t
+ * Return: n
  */
-int _abs(int t)
+int _abs(int n)
 {
-	if (t >= 0)
-	return (t);
+	if (n >= 0)
+	{
+	return (n);
+	}
 	else
-	return (-t);
+	{
+	return (-n);
+	}
 }
