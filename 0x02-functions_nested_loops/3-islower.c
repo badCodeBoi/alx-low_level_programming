@@ -3,7 +3,6 @@
  * _islower -checks for lowercase character
  *
  * @c: holds the character variables
- *
  * Returns: 1 if lowercase else 0
  */
 
