@@ -6,9 +6,8 @@
  */
 int print_last_digit(int db)
 {
-	int db;
-
 	int ld = db % 10;
+
 	if (ld < 0)
 	{
 	_putchar(ld + 48);
