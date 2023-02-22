@@ -2,6 +2,8 @@
 
 /**
 * main - causes an infinite loop
+* @\\o/\n" : escaping characters
+*
 * Return: 0
 */
 
@@ -14,6 +16,7 @@ int main(void)
 	i = 0;
 
 /**
+ *  Problem: loop causing problems
  *      while (i < 10)
  *     {
  *            putchar(i);
