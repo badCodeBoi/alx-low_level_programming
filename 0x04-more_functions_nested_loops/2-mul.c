@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * mul -
- * @a: first integer to be multiplied 
+ * mul - multiplies two integers
+ * @a: first integer to be multiplied
  * @b: second integer to be multiplied
  * Return: the result of the calculation
  */
