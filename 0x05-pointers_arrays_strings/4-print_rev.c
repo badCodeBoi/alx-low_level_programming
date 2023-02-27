@@ -3,15 +3,14 @@
 /**
  * print_rev - prints a string, in reverse
  * @s: variable to reverse
- * @i: variable in array or pointer
  */
 
- void print_rev(char *s)
+void print_rev(char *s)
 {
- int i = 0;
+int i = 0;
 	while (s[i] != '\0')
 		i++;
-	for (i = i - 1; i >= 0; i-- )
+	for (i = i - 1; i >= 0; i--)
 	{
 	_putchar(s[i]);
 	}
