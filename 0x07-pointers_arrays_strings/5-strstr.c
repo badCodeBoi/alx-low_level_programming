@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * *_strstr - finds the first occurrence of the 
+ * *_strstr - finds the first occurrence of the
  * substring needle in the string haystack
  * @needle: variable
  * @haystack: variable
+ * Return: NULL is substring is not found
  */
 char *_strstr(char *haystack, char *needle)
 {

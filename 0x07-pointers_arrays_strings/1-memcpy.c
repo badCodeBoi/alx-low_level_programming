@@ -5,7 +5,7 @@
  * *_memcpy - copies memory area
  * @dest: the destination address of memory
  * @src: the source
- * @n: 
+ * @n: variable
  * Return: Pointer to dest variable.
  */
 
