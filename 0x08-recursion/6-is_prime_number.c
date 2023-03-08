@@ -10,7 +10,7 @@
 
 int chck(int n, int i)
 {
-if (i == n -1 )
+if (i == n - 1)
 {
 return (1);
 }
