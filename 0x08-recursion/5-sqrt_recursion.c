@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * check_agr - evaluate passed arguments
+ * _check_agr - evaluate passed arguments
  * @i: integer argument
  * @n: integer argument
  * Return: void
@@ -32,6 +32,6 @@ int i = 0;
 
 if (i < 0)
 return (-1);
-else 
-return (_check_agr(i,n));
+else
+return (_check_agr(i, n));
 }
