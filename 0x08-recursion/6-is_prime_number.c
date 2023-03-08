@@ -10,19 +10,19 @@
 
 int chck(int n, int i)
 {
-if (i == n -1)
+if (i == n -1 )
 {
-return(1);
+return (1);
 }
 else if (n % i == 0)
 {
-return(0);
+return (0);
 }
 if (n % i != 0)
 {
-return(chck(n, i + 1));
+return (chck(n, i + 1));
 }
-return(0);
+return (0);
 }
 
 /**
@@ -39,11 +39,11 @@ i = 2;
 
 if (n < 2)
 {
-return(0);
+return (0);
 }
 if (n == 2)
 {
-return(1);
+return (1);
 }
 return (chck(n, i));
 }
